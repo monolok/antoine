@@ -1,16 +1,16 @@
 # Antoine
 
-Antoine is ...
-You can install Antoine directly from GitHub using pip.
+Antoine is just one pip install away !
+You can install Antoine directly using pip.
 
 ## Hire Antoine with a quick pip install
 
 ```bash
 ## Installing
-pip install git+https://github.com/monolok/antoine.git
+pip install antoine
 
 ## Upgrading
-pip install git+https://github.com/monolok/antoine.git --upgrade
+pip install antoine --upgrade
 
 ## Running in terminal
 $ hireantoinenow
