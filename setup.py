@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='antoine',
-    version='2.0',
+    version='2.1',
     packages=['antoine'],  # 'antoine' is the name of the package
     author='Antoine Bertin',
     author_email='monolok35@gmail.com',
@@ -15,6 +15,5 @@ setup(
         ],
     },
     include_package_data=True,
-    install_requires=[],
-    scripts=['post_install.py']
+    install_requires=[]
 )
