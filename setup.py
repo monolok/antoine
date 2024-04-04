@@ -5,7 +5,7 @@ print("Installing Antoine...")
 
 setup(
     name='antoine',
-    version='0.1',
+    version='0.2',
     author='Antoine Bertin',
     author_email='monolok35@gmail.com',
     include_package_data=True,
