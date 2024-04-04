@@ -1,2 +1,5 @@
 testing_antoine.ipynb
 /antoine/__pycache__/
+/build
+/dist
+/antoine.egg-info
