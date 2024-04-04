@@ -5,8 +5,13 @@ print("Installing Antoine...")
 
 setup(
     name='antoine',
-    version='1.6',
+    version='1.7',
     packages=['antoine'],  # 'antoine' is the name of the package
+    author='Antoine Bertin',
+    author_email='monolok35@gmail.com',
+    description='Hiring Antoine is so much fun!',
+    url='https://github.com/monolok/antoine/',
+    license='MIT',
     entry_points={
         'console_scripts': [
             'hireantoinenow=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
@@ -17,6 +22,4 @@ setup(
 )
 
 # Print a message after installation
-print("Antoine is successfully installed!")
-print("Let's goooo !")
-print("Antoine is a good boy")
+print("run in terminal : hireantoinenow")

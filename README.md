@@ -11,3 +11,6 @@ pip install git+https://github.com/monolok/antoine.git
 
 ## Upgrading
 pip install git+https://github.com/monolok/antoine.git --upgrade
+
+## Running in terminal
+$ hireantoinenow
