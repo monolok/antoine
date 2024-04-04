@@ -2,7 +2,6 @@ README.md
 setup.py
 antoine/__init__.py
 antoine/app.py
-antoine/post_install.py
 antoine.egg-info/PKG-INFO
 antoine.egg-info/SOURCES.txt
 antoine.egg-info/dependency_links.txt
