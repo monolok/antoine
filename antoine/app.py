@@ -1,24 +1,25 @@
-import time
+def construct_rectangle(width, height, email):
+    rectangle_code = ""
 
-def draw_blinking_rectangle(width, height, email):
-    for _ in range(10):  # Blink 5 times
-        # Print rectangle with email in the middle
-        print("╔" + "═" * (width - 2) + "╗")
-        for _ in range((height - 3) // 2):
-            print("║" + " " * (width - 2) + "║")
-        middle_line = "║" + email.center(width - 2) + "║"
-        print(middle_line)
-        for _ in range((height - 2) // 2):
-            print("║" + " " * (width - 2) + "║")
-        print("╚" + "═" * (width - 2) + "╝")
+    # Construct the top line of the rectangle
+    rectangle_code += "╔" + "═" * (width - 2) + "╗\n"
 
-        # Sleep for 0.5 seconds
-        time.sleep(0.5)
+    # Construct the middle part of the rectangle
+    for _ in range((height - 3) // 2):
+        rectangle_code += "║" + " " * (width - 2) + "║\n"
+    middle_line = "║" + email.center(width - 2) + "║\n"
+    rectangle_code += middle_line
 
-        # Clear the screen
-        print("\033[H\033[J", end="")
-        time.sleep(0.5)
+    # Construct the bottom part of the rectangle
+    for _ in range((height - 2) // 2):
+        rectangle_code += "║" + " " * (width - 2) + "║\n"
+    rectangle_code += "╚" + "═" * (width - 2) + "╝\n"
+
+    return rectangle_code
 
 def main():
-    email = "your_email@example.com"
-    draw_blinking_rectangle(30, 10, email)
+    email = "https://www.linkedin.com/in/antoinebertin35/"
+    width = 30
+    height = 10
+    rectangle_code = construct_rectangle(width, height, email)
+    print(rectangle_code)

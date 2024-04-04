@@ -5,11 +5,11 @@ print("Installing Antoine...")
 
 setup(
     name='antoine',
-    version='1.3',
+    version='1.4',
     packages=['antoine'],  # 'antoine' is the name of the package
     entry_points={
         'console_scripts': [
-            'iloveantoine=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
+            'hireantoine=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
         ],
     },
     include_package_data=True,
