@@ -19,6 +19,6 @@ def draw_blinking_rectangle(width, height, email):
         print("\033[H\033[J", end="")
         time.sleep(0.5)
 
-if __name__ == "__main__":
+def main():
     email = "your_email@example.com"
     draw_blinking_rectangle(30, 10, email)

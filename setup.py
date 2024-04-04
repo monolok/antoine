@@ -5,7 +5,7 @@ print("Installing Antoine...")
 
 setup(
     name='antoine',
-    version='1.2',
+    version='1.3',
     packages=['antoine'],  # 'antoine' is the name of the package
     entry_points={
         'console_scripts': [
