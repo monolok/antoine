@@ -1,7 +1,7 @@
 import time
 
 def draw_blinking_rectangle(width, height, email):
-    for _ in range(5):  # Blink 5 times
+    for _ in range(10):  # Blink 5 times
         # Print rectangle with email in the middle
         print("╔" + "═" * (width - 2) + "╗")
         for _ in range((height - 3) // 2):
