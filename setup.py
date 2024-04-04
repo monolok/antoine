@@ -1,11 +1,16 @@
 from setuptools import setup
+from setuptools.command.install import install
 
-# Print a message before installation
-print("Installing Antoine...")
+class CustomInstallCommand(install):
+    def run(self):
+        print("Installing Antoine...")
+        install.run(self)
+        print("Antoine is successfully installed!")
+        print("To hire Antoine, run 'hire antoine now' in your terminal.")
 
 setup(
     name='antoine',
-    version='1.8',
+    version='1.9',
     packages=['antoine'],  # 'antoine' is the name of the package
     author='Antoine Bertin',
     author_email='monolok35@gmail.com',
@@ -14,12 +19,12 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'hireantoinenow=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
+            'hire antoine now=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
         ],
     },
     include_package_data=True,
     install_requires=[],
+    cmdclass={
+        'install': CustomInstallCommand,
+    }
 )
-
-# Print a message after installation
-print("run in terminal : hireantoinenow")
