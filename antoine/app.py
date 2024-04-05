@@ -41,7 +41,7 @@ def main():
     width = 60
     height = 10
     personal_text = """
-    Hey there! 👋 Antoine 2.3 here. 
+    Hey there! 👋 Antoine 2.4 here. 
     Sold my restaurant after 12 years and jumped into coding for about the same time. 
     Recently graduated from the top data scientist BootCamp in Europe! 🎓 
     There, I honed my skills in crafting, deploying, and monitoring ML/deep learning models. 
@@ -64,5 +64,3 @@ def main():
     Boom!
     """
     construct_rectangle(width, height, email, personal_text)
-
-main()

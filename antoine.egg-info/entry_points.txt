@@ -1,2 +1,2 @@
 [console_scripts]
-hireantoine = antoine.app:main
+hire_antoine = antoine.app:main
