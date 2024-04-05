@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='antoine',
-    version='2.2',
+    version='2.3',
     packages=['antoine'],  # 'antoine' is the name of the package
     author='Antoine Bertin',
     author_email='monolok35@gmail.com',
@@ -11,7 +11,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'hireantoine=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
+            'hire_antoine=antoine.app:main',  # 'antoine' is the name of the package and 'app.py' contains a function 'main'
         ],
     },
     include_package_data=True,

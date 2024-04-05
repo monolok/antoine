@@ -13,4 +13,4 @@ pip install antoine
 pip install antoine --upgrade
 
 ## Running in terminal
-$ hireantoine
+$ hire_antoine
