@@ -49,7 +49,7 @@ def main():
     width = 60
     height = 10
     personal_text_1 = """
-    Hey there! 👋 Antoine 2.5 here. 
+    Hey there! 👋 Antoine 2.6 here. 
     Sold my restaurant after 12 years and jumped into coding for about the same time. 
     I Recently graduated from the top data scientist school in Europe! 🎓 
     There, I honed my skills in crafting, deploying, and monitoring ML & deep learning models. 
@@ -68,5 +68,3 @@ def main():
     I am ready to settle down and build a long-term career while making meaningful contributions."""
 
     construct_rectangle(width, height, email, personal_text_1, personal_text_boom, personal_text_2, personal_text_2_1, search, personal_text_finish)
-
-main()
